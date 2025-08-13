@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "./components/Header";
+import Header from "../components/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 export const metadata: Metadata = {
   title: "Inventario de Desiderium",
-  description: "Proyecto para gestionar el inventario de Desiderium",
+  description: "Aplicacion para gestionar el inventario de Desiderium",
 };
 
 export default function RootLayout({
